@@ -1,0 +1,50 @@
+.container {
+    text-align: center;
+    margin-left: 550px ;
+}
+  
+form {
+    width: 350px;
+    padding: 25px 15px;
+    border: 1px solid #ccc;
+}
+  
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    background-color: #ebebe0;
+}
+  
+button[type='submit'] {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 0px;
+    margin-top: 10px;
+    width: 93%;
+}
+  
+.message {
+    background-color: #1a1aff;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+  
+.error {
+    color: red;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-left: 11px;
+}
+  
+.terms-checkbox input[type="checkbox"] {
+    margin-right: 10px;
+}
+  

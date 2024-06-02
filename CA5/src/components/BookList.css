@@ -1,0 +1,59 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+.header {
+    padding: 20px;
+}  
+  
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+}
+  
+.header h1 {
+    font-size: 27px;
+    white-space: nowrap;
+    color: black;
+}
+  
+.header input {
+    margin: 0px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+  
+.register-button {
+    color:red;
+    border-radius: 0px;
+    border: 3px solid black;
+    padding: 10px 40px;
+}
+  
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 10px;
+    padding: 40px 20px;
+}
+  
+.book {
+    padding: 20px;
+    text-align: center;
+}
+  
+.book img {
+    margin-bottom: 10px;
+}
+  
+.book-info {
+    text-align: center;
+}
+  
+.book-info h3 {
+    font-size: 18px;
+}
+  
+  
+  
